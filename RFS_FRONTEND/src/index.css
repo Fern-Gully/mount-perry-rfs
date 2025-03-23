@@ -5,21 +5,43 @@
   padding: 0;
 }
 
+/* Typography */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
   background-color: #fff;
   color: #222;
-  line-height: 1.6;
   scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.5em;
+  color: #111;
+}
+
+p {
+  margin-bottom: 1em;
+  font-weight: 400;
 }
 
 a {
   color: #d32f2f;
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 img {
@@ -27,6 +49,7 @@ img {
   display: block;
 }
 
+/* Layout */
 section {
   padding: 80px 20px;
 }
