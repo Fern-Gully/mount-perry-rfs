@@ -1,0 +1,110 @@
+/* styles/donation.css */
+
+.donation-section {
+    background-color: #fff;
+    border-top: 2px solid #f0f0f0;
+    padding: 100px 20px;
+  }
+  
+  .donation-container {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .donation-container h2 {
+    font-size: 2.5rem;
+    color: #222;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  
+  .donation-toggle {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 32px;
+  }
+  
+  .donation-toggle button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background: #f7f7f7;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .donation-toggle button:hover {
+    background: #eee;
+  }
+  
+  .donation-toggle .active {
+    background-color: #d32f2f;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .donation-amounts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .donation-amounts button {
+    padding: 14px 24px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: white;
+    transition: all 0.2s ease;
+  }
+  
+  .donation-amounts button:hover {
+    background: #fff5f5;
+  }
+  
+  .donation-amounts .selected {
+    background-color: #d32f2f;
+    color: white;
+    border-color: #d32f2f;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .donation-input {
+    margin-bottom: 30px;
+  }
+  
+  .donation-input input {
+    width: 240px;
+    padding: 12px 16px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: #222;
+  }
+  
+  .donation-cta {
+    background-color: #d32f2f;
+    color: white;
+    padding: 16px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .donation-cta:hover {
+    background-color: #b71c1c;
+    transform: translateY(-2px);
+  }
+  

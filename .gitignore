@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Vite
+.vite
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Frontend/Backend node_modules
+frontend/node_modules/
+backend/node_modules/
+
+# Misc
+*.local
